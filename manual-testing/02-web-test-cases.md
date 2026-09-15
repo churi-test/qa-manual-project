@@ -5,7 +5,7 @@
 ---
 ## Módulo 1 - Login
 
-> Casos cubiertos por automatización — ver `automation-test/src/test/java/tests/LoginTest`
+> Casos cubiertos por automatización — ver `src/test/java/tests/LoginTest.java`
 
 ### LOG-SAUD01 · Login con usuario y contraseña válidas
 
@@ -65,4 +65,30 @@
 |**Resultado esperado**|Se espera que el sistema muestre un mensaje de error indicando que el `Password` es un campo requerido: `Epic sadface: Password is required`|
 |**Resultado obtenido**| ✅ Automatizado - pasando|
 |**Estado**|  ✅ Automatizado|
+
+---
+## Módulo 2 - Catálogo de productos
+
+### LIST-PROD-SAUD01 · Visualizar el agregado de un producto en el icono del carrito
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Precondición**|<ul><li>Conexión a internet estable</li> <li>El usuario debe estar logueado en el sistema</li></ul>|
+|**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
+|**Pasos**|<ol><li>Realizar clic en el botón "Add to cart" de un producto</li></ol>|
+|**Resultado esperado**|Se espera que el sistema cambié el botón a `Remove` y muestre el icono del carrito la cantidad de `1`|
+|**Resultado obtenido**| ✅ Automatizado - pasando|
+|**Estado**|  ✅ Automatizado|
+
+---
+### LIST-PROD-SAUD02 · Ordenar los productos por su precio (Bajo a Alto)
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Precondición**|<ul><li>Conexión a internet estable</li> <li>El usuario debe estar logueado en el sistema</li></ul>|
+|**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
+|**Pasos**|<ol><li>Realizar clic en el botón del filtro</li><li>Hacer clic en la opción de `Price (low to high)` mostrando como primer elemento de la lista el 'Sauce Labs Onesie' con precio $7.99</li></ol>|
+|**Resultado esperado**|Se espera que el sistema ordene los productos por su precio de forma ascendente|
+|**Resultado obtenido**| - |
+|**Estado**| - |
 
