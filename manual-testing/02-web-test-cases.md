@@ -75,7 +75,7 @@
 |--------|------|
 |**Precondición**|<ul><li>Conexión a internet estable</li> <li>El usuario debe estar logueado en el sistema</li></ul>|
 |**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
-|**Pasos**|<ol><li>Realizar clic en el botón "Add to cart" de un producto</li></ol>|
+|**Pasos**|<ol><li>Hacer clic en el botón "Add to cart" de un producto</li></ol>|
 |**Resultado esperado**|Se espera que el sistema cambié el botón a `Remove` y muestre el icono del carrito la cantidad de `1`|
 |**Resultado obtenido**| ✅ Automatizado - pasando|
 |**Estado**|  ✅ Automatizado|
@@ -87,8 +87,25 @@
 |--------|------|
 |**Precondición**|<ul><li>Conexión a internet estable</li> <li>El usuario debe estar logueado en el sistema</li></ul>|
 |**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
-|**Pasos**|<ol><li>Realizar clic en el botón del filtro</li><li>Hacer clic en la opción de `Price (low to high)` mostrando como primer elemento de la lista el 'Sauce Labs Onesie' con precio $7.99</li></ol>|
-|**Resultado esperado**|Se espera que el sistema ordene los productos por su precio de forma ascendente|
+|**Pasos**|<ol><li>Hacer clic en el botón del filtro</li><li>Hacer clic en la opción de `Price (low to high)`</li></ol>|
+|**Resultado esperado**|Se espera que el sistema ordene los productos por su precio de forma ascendente,  mostrando como primer elemento de la lista el 'Sauce Labs Onesie' con precio $7.99|
+|**Resultado obtenido**| El sistema ordenó los productos por su precio (bajo a alto) |
+|**Estado**| Aprobado ✅ |
+
+---
+## Módulo 3 - Carrito de compras
+
+### CART-SHOP-SAUD01 · Continuar la verificación de productos con el Checkout
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Precondición**|<ul><li>Conexión a internet estable</li><li>El usuario debe estar logueado en el sistema</li><li>Encontrarse en la pantalla de carrito de compras</li><li>Se tenga al menos un producto agregado en el carrito</li></ul>|
+|**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
+|**Pasos**|<ol><li>Hacer clic en el botón "Checkout"</li></ol>|
+|**Resultado esperado**|Se espera que el sistema redirija al usuario a la pantalla de Checkout (`/checkout-step-one.html`)|
 |**Resultado obtenido**| - |
 |**Estado**| - |
+
+
+
 
