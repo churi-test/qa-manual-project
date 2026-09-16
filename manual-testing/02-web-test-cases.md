@@ -106,6 +106,36 @@
 |**Resultado obtenido**| - |
 |**Estado**| - |
 
+---
+## Módulo 4 - Checkout de compra de productos
+
+### CHECK-SHOP-SAUD01 · Completar con datos válidos para la verificación (Checkout)
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Precondición**|<ul><li>Conexión a internet estable</li><li>El usuario debe estar logueado en el sistema</li><li>Hayan productos en el carrito</li><li>Encontrarse en la pantalla de Checkout `/checkout-step-one.html`</li></ul>|
+|**Datos de prueba**|<ul><li>First Name: Juan</li><li>Last name: Lopez C.</li><li>Zip/Postal Code: 20711</li></ol>|
+|**Pasos**|<ol><li>Llenarr el campo First Name: `Juan`</li><li>Llenar el campo Last Name: `Lopez C.`</li><li>Llenarr el campo Zip/Postal Code: `20711`</li><li>Hacer clic en el botón "Continue"</li><li>Hacer clic en el botón "Finish"</li></ol>|
+|**Resultado esperado**|Se espera que el sistema muestre el mensaje de compra y orden exitosa, `Thank you for your order!`|
+|**Resultado obtenido**| - |
+|**Estado**| - |
+
+---
+## Módulo 5 - Logout
+
+### LOGOUT-SAUD01 · Cerrar sesión correctamente
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Precondición**|<ul><li>Conexión a internet estable</li><li>El usuario debe estar logueado en el sistema</li><li>Encontrarse en la pantalla de catálogo de productos `/inventory.html`</li></ul>|
+|**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
+|**Pasos**|<ol><li>Hacer clic en el botón de menú</li><li>Hacer clic en "Logout"</li></ol>|
+|**Resultado esperado**|Se espera que el sistema redirija al usuario a la página de login `(https://www.saucedemo.com/)`|
+|**Resultado obtenido**| - |
+|**Estado**| - |
+
+
+
 
 
 
