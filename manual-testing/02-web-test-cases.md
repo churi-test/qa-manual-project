@@ -135,6 +135,37 @@
 |**Estado**| - |
 
 
+## Pruebas exploratorias usando usuarios (problem_user, error_user)
+
+
+### EXPL-SAUD01 · Visualizar el catálogo de productos con usuario problem_user
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Datos de prueba**|<ul><li>Usuario: problem_user</li> <li>Password: secret_sauce</li></ol>|
+|**Resultado esperado**|Se espera que el sistema muestre el catálogo sin error visual|
+|**Estado**| Fallido ❌ |
+|**IDs BUG**| BUG-001 |
+
+---
+### EXPL-SAUD02 · Visualizar el agregado y disminución de producto en el carrito con el usuario error_user
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Datos de prueba**|<ul><li>Usuario: error_user</li> <li>Password: secret_sauce</li></ol>|
+|**Resultado esperado**|Se espera que los botones "Add to cart" y "Remove" funcionen correctamente cuando el usuario agregue o quite un producto al carrito|
+|**Estado**| Fallido ❌ |
+|**IDs BUG**| BUG-002 |
+
+---
+### EXPL-SAUD03 · Visualizar la confirmación de compra (Chekout) con usuario error_user
+
+|**Campo**|**Detalle**|
+|--------|------|
+|**Datos de prueba**|<ul><li>Usuario: error_user</li> <li>Password: secret_sauce</li></ol>|
+|**Resultado esperado**|Se espera que el sistema muestre para cada campo: `First Name, Last Name, Zip/Postal Code` un mensaje de que son obligatorios|
+|**Estado**| Fallido ❌ |
+|**IDs BUG**| BUG-003 |
 
 
 
