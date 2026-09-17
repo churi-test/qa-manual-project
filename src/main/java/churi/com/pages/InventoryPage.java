@@ -26,12 +26,19 @@ public class InventoryPage {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     }
 
-    public void enterAddtoCart() {
+    public void clickAddToCart() {
         // finder
         WebElement element_AddButton = wait.until(
                 ExpectedConditions.visibilityOfElementLocated(locator_addButton));
         // interaction
         element_AddButton.click();
+    }
+
+    // clic in Shopping Cart Icon
+    public void goToCart() {
+        WebElement element_shoppingCartIcon = wait.until(
+                ExpectedConditions.visibilityOfElementLocated(locator_shoppingCartIcon));
+        element_shoppingCartIcon.click();
     }
 
     public String getButtonText() {

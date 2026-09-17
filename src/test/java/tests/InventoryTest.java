@@ -20,7 +20,7 @@ public class InventoryTest extends BaseTest {
         // actions
         // 1. seleccionar un producto
         // 2. Clic en el botón agregar
-        inventoryTest.enterAddtoCart();
+        inventoryTest.clickAddToCart();
 
         // assertions | cambio de boton "Add to cart" a "Remove"
         assertEquals("Remove", inventoryTest.getButtonText());
