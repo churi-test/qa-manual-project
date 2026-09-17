@@ -26,7 +26,7 @@ public class CartTest extends BaseTest {
         cartPage.goToCheckout();
 
         // assertions
-        Assertions.assertEquals("https://www.saucedemo.com/checkout-step-one.html",
-                driver.getCurrentUrl());
+        Assertions.assertEquals("First Name",
+                cartPage.getFistNameFieldName());
     }
 }
