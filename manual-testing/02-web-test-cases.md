@@ -16,7 +16,7 @@
 | Pruebas exploratorias | 3 | 0 | 3 | ⚠️ Bug encontrado |
 
  
-**Total ejecutados manualmente:** 6 | **Pasaron:** 3 | **Fallaron:** 3
+**Total ejecutados manualmente:** 5 | **Pasaron:** 2 | **Fallaron:** 3
 
 ---
 ## Módulo 1 - Login
