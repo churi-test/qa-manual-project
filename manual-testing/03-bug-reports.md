@@ -45,3 +45,6 @@
 | **Resultado esperado** | Se espera que el sistema muestre un mensaje error adecuado de `Error: Last Name is required` |
 | **Resultado obtenido** | El sistema permite pasar a la siguiente confirmación, sin mostrar el mensaje de error de campo obligatorio |
 | **Evidencia** | [BUG-003](/manual-testing/evidence/BUG-003.png) |
+
+---
+Proyecto QA Trainee | Jhon Churivanti | Salmos 51:10 `~ Dios mío, no me dejes tener malos pensamientos, cambia todo mi ser`

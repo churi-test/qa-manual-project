@@ -62,9 +62,9 @@ sauce-qa-porject/
 
 | **Documento** | **Descripción** |
 |--------|------|
-| [Test Plan](/students-register/base-plan.md)    | Estrategia, objetivo y alcance   |
-| [Casos de prueba - Web UI](/students-register/test-cases.md)   | Casos exploratorios manuales y automatizados   |
-| [Reporte de bugs](/students-register/test-execution.md)   | 3 bugs UI documentados con severidad   |
+| [Test Plan](/manual-testing/01-test-plan.md)    | Estrategia, objetivo y alcance   |
+| [Casos de prueba - Web UI](/manual-testing/02-web-test-cases.md)   | Casos exploratorios manuales y automatizados   |
+| [Reporte de bugs](/manual-testing/03-bug-reports.md)   | 3 bugs UI documentados con severidad   |
 
 ---
 ## Proyecto
