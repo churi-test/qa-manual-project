@@ -3,6 +3,22 @@
 **Versión:** 1.0 | **Fecha:** Septiembre 2026 | **Autor:** Jhon Churivanti | **Web de prueba:** [SauceDemo](https://www.saucedemo.com/)
 
 ---
+
+## Resumen
+
+| Módulo | Casos | Pasaron | Fallaron | Estado |
+|--------|-------|---------|---------|--------|
+| Login | 5 | 5 | 0 | ✅ Automatizado |
+| Catálogo de productos | 2 | 2 | 0 | ✅ Completo|
+| Carrito de compras | 1 | 1 | 0 | ✅ Automatizado |
+| Checkout | 1 | 1 | 0 | ✅ Automatizado |
+| Logout | 1 | 1 | 0 | ✅ Completo |
+| Pruebas exploratorias | 3 | 0 | 3 | ⚠️ Bug encontrado |
+
+ 
+**Total ejecutados manualmente:** 6 | **Pasaron:** 3 | **Fallaron:** 3
+
+---
 ## Módulo 1 - Login
 
 > Casos cubiertos por automatización — ver `src/test/java/tests/LoginTest.java`
@@ -69,6 +85,8 @@
 ---
 ## Módulo 2 - Catálogo de productos
 
+> Casos cubierto por automatización — ver `src/test/java/tests/InventoryTest.java`
+
 ### LIST-PROD-SAUD01 · Visualizar el agregado de un producto en el icono del carrito
 
 |**Campo**|**Detalle**|
@@ -95,6 +113,8 @@
 ---
 ## Módulo 3 - Carrito de compras
 
+> Caso cubierto por automatización — ver `src/test/java/tests/CartTest.java`
+
 ### CART-SHOP-SAUD01 · Continuar la verificación de productos con el Checkout
 
 |**Campo**|**Detalle**|
@@ -103,11 +123,13 @@
 |**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
 |**Pasos**|<ol><li>Hacer clic en el botón "Checkout"</li></ol>|
 |**Resultado esperado**|Se espera que el sistema redirija al usuario a la pantalla de Checkout (`/checkout-step-one.html`)|
-|**Resultado obtenido**| - |
-|**Estado**| - |
+|**Resultado obtenido**| ✅ Automatizado - pasando |
+|**Estado**|  ✅ Automatizado |
 
 ---
 ## Módulo 4 - Checkout de compra de productos
+
+> Caso cubierto por automatización — ver `src/test/java/tests/CheckoutTest.java`
 
 ### CHECK-SHOP-SAUD01 · Completar con datos válidos para la verificación (Checkout)
 
@@ -117,8 +139,8 @@
 |**Datos de prueba**|<ul><li>First Name: Juan</li><li>Last name: Lopez C.</li><li>Zip/Postal Code: 20711</li></ol>|
 |**Pasos**|<ol><li>Llenarr el campo First Name: `Juan`</li><li>Llenar el campo Last Name: `Lopez C.`</li><li>Llenarr el campo Zip/Postal Code: `20711`</li><li>Hacer clic en el botón "Continue"</li><li>Hacer clic en el botón "Finish"</li></ol>|
 |**Resultado esperado**|Se espera que el sistema muestre el mensaje de compra y orden exitosa, `Thank you for your order!`|
-|**Resultado obtenido**| - |
-|**Estado**| - |
+|**Resultado obtenido**| ✅ Automatizado - pasando |
+|**Estado**|  ✅ Automatizado |
 
 ---
 ## Módulo 5 - Logout
@@ -131,8 +153,8 @@
 |**Datos de prueba**|<ul><li>Usuario: standard_user</li> <li>Password: secret_sauce</li></ol>|
 |**Pasos**|<ol><li>Hacer clic en el botón de menú</li><li>Hacer clic en "Logout"</li></ol>|
 |**Resultado esperado**|Se espera que el sistema redirija al usuario a la página de login `(https://www.saucedemo.com/)`|
-|**Resultado obtenido**| - |
-|**Estado**| - |
+|**Resultado obtenido**| El sistema permite cerrar sesión correctamente |
+|**Estado**| Aprobado ✅ |
 
 
 ## Pruebas exploratorias usando usuarios (problem_user, error_user)
@@ -166,6 +188,9 @@
 |**Resultado esperado**|Se espera que el sistema muestre para cada campo: `First Name, Last Name, Zip/Postal Code` un mensaje de que son obligatorios|
 |**Estado**| Fallido ❌ |
 |**IDs BUG**| BUG-003 |
+
+---
+Proyecto QA Trainee | Jhon Churivanti | Salmos 51:10 `~ Dios mío, no me dejes tener malos pensamientos, cambia todo mi ser`
 
 
 

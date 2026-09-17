@@ -56,9 +56,7 @@ Este proyecto forma parte de mi portafolio como QA Trainee. Tiene la intención 
 |------|------|------|
 | standard_user | secret_sauce | Se espera que el sistema acepte al usuario
 | locked_out_user | secret_sauce | Se espera que el sistema rechace al usuario (usuario bloqueado) |
-| error_user | secret_sauce | Se espera que el sistema muestre Bugs de UI |
-| performance_glitch_user | secret_sauce | Exista un espera lenta en el login |
-
+| error_user, problem_user | secret_sauce | Se espera que el sistema muestre Bugs de UI |
 
 ---
 ## 3. Análisis de riegos
@@ -89,7 +87,7 @@ Este proyecto forma parte de mi portafolio como QA Trainee. Tiene la intención 
 - Test plan (`/manual-testing/01-test-plan.md`)
 - Casos de pruebas manuales - Web (`/manual-testing/02-web-test-cases.md`)
 - Reporte de bugs - Web (`/manual-testing/03-bug-reports.md`)
-- Automatización de pruebas - Web (`/automation`)
+- Automatización de pruebas - Web (`/src/test/java/tests`)
 
 ---
 Proyecto QA Trainee | Jhon Churivanti | Agradece a Dios por el nuevo día, Él siempre está a la espera de cada uno de nosotros°
