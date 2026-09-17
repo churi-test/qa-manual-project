@@ -38,8 +38,7 @@ Demostrar y practicar conocimiento QA aplicada a plataforma web:
 
 ```
 sauce-qa-porject/
-├── README.md
-└── manual-testing/
+├── manual-testing/
     ├── 01-test-plan.md       (Objetivo, alcance y estrategia)
     ├── 02-web-test-cases.md  (Casos de prueba UI)
     ├── 03-bug-reports.md     (Bugs documentados con severidad)
