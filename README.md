@@ -34,7 +34,7 @@ Demostrar y practicar conocimiento QA aplicada a plataforma web:
 
 ---
 
-## 3. Estructura - proyecto
+## 4. Estructura - proyecto
 
 ```
 sauce-qa-porject/
@@ -57,7 +57,7 @@ sauce-qa-porject/
 
 ---
 
-## 4. Documentación
+## 5. Documentación
 
 | **Documento** | **Descripción** |
 |--------|------|
